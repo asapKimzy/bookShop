@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1100.0" style="-fx-background-color: #FFF5EE;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.HelloController">
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+   <children>
+      <AnchorPane layoutY="195.0" prefHeight="707.0" prefWidth="1100.0" style="-fx-background-color: #008080;">
+         <children>
+            <TextField fx:id="welcomePageLoginField" layoutX="438.0" layoutY="134.0" prefHeight="35.0" prefWidth="232.0" promptText="Input login" />
+            <PasswordField fx:id="welcomePagePasswordField" layoutX="438.0" layoutY="184.0" prefHeight="35.0" prefWidth="232.0" promptText="password..." />
+            <Button fx:id="welcomePageSubmit" layoutX="438.0" layoutY="241.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="65.0" text="ок" />
+            <Button fx:id="welcomePageRegistrationButton" layoutX="971.0" layoutY="21.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="101.0" text="registration" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="438.0" layoutY="75.0" prefHeight="70.0" prefWidth="224.0" text="BookStore" textFill="#00010a">
+         <font>
+            <Font name="System Italic" size="48.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
